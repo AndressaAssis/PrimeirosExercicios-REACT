@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 
 import { Input } from "./components/Input/Input";
-import { Navbar } from "./components/Navbar/Navbar";
 import { Contador } from './components/Contador/Contador';
 import { Texto } from './components/Texto/Texto';
 import { Card } from './components/Card/Card';
@@ -19,8 +18,6 @@ function App() {
   return (
 
   <div className="container">
-    
-   <Navbar />
 
     <div className="Card">
       <Card
@@ -54,7 +51,7 @@ function App() {
       <Tarefas />
 
   </div>
-
+  
   );
 }
 

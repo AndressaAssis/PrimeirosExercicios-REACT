@@ -78,7 +78,7 @@
 }
 
 .tarefasContainer {
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
@@ -94,6 +94,6 @@
 }
 
 .tarefas ul {
-  list-style-type: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o preenchimento padrão */
+  list-style-type: none; 
+  padding: 0; 
 }
